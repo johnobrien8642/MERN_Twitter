@@ -10,7 +10,7 @@ const TweetsReducer = (state = { all: {}, user: {}, new: undefined }, action) =>
     case RECEIVE_USER_TWEETS:
       newState.all = action.tweets.data;
       return newState;
-    case RECEIVE_TWEETS:
+    case RECEIVE_NEW_TWEET:
       newState.new = action.tweet.data;
       return newState;
     default:
