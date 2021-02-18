@@ -16,7 +16,7 @@ export const receiveUserSignIn = () => ({
 })
 
 export const receiveErrors = errors => ({
-  type: RECEIVE_USER_SIGN_IN,
+  type: RECEIVE_SESSION_ERRORS,
   errors
 })
 
